@@ -11,6 +11,8 @@ import {
 import { UserSelectionComponent } from './user-selection/user-selection.component';
 import { ThreadSectionComponent } from './thread-section/thread-section.component';
 import { MessageSectionComponent } from './message-section/message-section.component';
+import { HeaderComponent } from './header/header.component';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   declarations: [
@@ -18,6 +20,8 @@ import { MessageSectionComponent } from './message-section/message-section.compo
     UserSelectionComponent,
     ThreadSectionComponent,
     MessageSectionComponent,
+    HeaderComponent,
+    HomeComponent,
   ],
   imports: [
     BrowserAnimationsModule,
